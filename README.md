@@ -14,6 +14,7 @@ The repository contains:
 - `source_files/` - CACTIxT C/C++ source and header files.
 - `CACTIxT_User_Guide.docx` - detailed instructions for configuring and running CACTIxT.
 - `CACTIxT_License.docx` - license, attribution, and citation information.
+- `CACTIxT.zip` - all the above files.
 
 The main program entry point is `main.cc`.
 
