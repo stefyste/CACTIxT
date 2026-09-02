@@ -1,0 +1,115 @@
+CACTIxT SOFTWARE LICENSE
+
+CACTIxT is a CACTI-compatible SRAM architectural modeling framework derived
+in part from the CACTI source code and from the FinCACTI/PCACTI source code,
+with additional modifications and extensions developed for CACTIxT.
+
+---------------------------------------------------------------------------
+1. THIRD-PARTY ORIGIN AND ATTRIBUTION
+---------------------------------------------------------------------------
+
+CACTI-derived portions
+
+Copyright (c) 2015 Hewlett-Packard Development Company, L.P.
+All Rights Reserved.
+
+Original CACTI copyright notices and license notices contained in source files
+derived from or incorporating CACTI code must be retained.
+
+FinCACTI/PCACTI-derived portions
+
+FinCACTI/PCACTI was developed by:
+Alireza Shafaei, Yanzhi Wang, Xue Lin, and Massoud Pedram,
+Department of Electrical Engineering,
+University of Southern California.
+
+Reference:
+A. Shafaei, Y. Wang, X. Lin, and M. Pedram,
+"FinCACTI: Architectural Analysis and Modeling of Caches with
+Deeply-Scaled FinFET Devices,"
+2014 IEEE Computer Society Annual Symposium on VLSI (ISVLSI),
+pp. 290-295, 2014.
+
+Original copyright notices, license notices, and disclaimer statements
+contained in FinCACTI/PCACTI source files remain applicable to the
+corresponding portions of this software and must be retained.
+
+Nothing in this project-level license is intended to replace, supersede,
+or weaken any license terms that apply to third-party CACTI or
+FinCACTI/PCACTI source code included in this distribution.
+
+CACTIxT modifications and extensions
+
+Copyright (c) 2026 CACTIxT Authors.
+All Rights Reserved.
+
+---------------------------------------------------------------------------
+2. REDISTRIBUTION AND USE
+---------------------------------------------------------------------------
+
+Subject to the third-party license terms described above, redistribution and
+use of the CACTIxT modifications and extensions in source and binary forms,
+with or without modification, are permitted provided that the following
+conditions are met:
+
+1. Redistributions of source code must retain the applicable copyright
+   notices, this list of conditions, and the disclaimer below.
+
+2. Redistributions in binary form must reproduce the applicable copyright
+   notices, this list of conditions, and the disclaimer below in the
+   documentation and/or other materials provided with the distribution.
+
+3. Original CACTI and FinCACTI/PCACTI copyright and license notices contained
+   in files derived from or incorporating those projects must be retained.
+
+4. Modified versions must be clearly identified as modified versions and
+   must not be represented as official releases of CACTIxT, CACTI, or
+   FinCACTI/PCACTI.
+
+5. Neither the names of Hewlett-Packard Development Company, L.P., the CACTI
+   contributors, the FinCACTI/PCACTI authors or contributors, the CACTIxT
+   authors, nor their institutions may be used to endorse or promote products
+   derived from this software without specific prior written permission.
+
+---------------------------------------------------------------------------
+3. CITATION
+---------------------------------------------------------------------------
+
+Academic and scientific users are requested to cite CACTIxT and the underlying
+CACTI and FinCACTI works when publishing results obtained using this software.
+
+The recommended citations are provided in the repository README and related
+citation metadata.
+
+This citation request is intended to support proper academic attribution and
+is not an additional restriction on the permissions granted in Section 2.
+
+---------------------------------------------------------------------------
+4. DISCLAIMER
+---------------------------------------------------------------------------
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS, AUTHORS, AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+ACCURACY, RELIABILITY, AND NON-INFRINGEMENT ARE DISCLAIMED.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDERS, AUTHORS, CONTRIBUTORS, OR THEIR
+INSTITUTIONS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+CACTIxT is intended for architectural modeling and design-space exploration.
+Results obtained using CACTIxT should be independently validated when used
+for circuit implementation, reliability assessment, or final design sign-off.
+
+---------------------------------------------------------------------------
+5. FILE-LEVEL NOTICES
+---------------------------------------------------------------------------
+
+For files derived from CACTI or FinCACTI/PCACTI, the original file-level
+copyright headers, license notices, and disclaimers must be preserved in
+addition to this project-level LICENSE file.
