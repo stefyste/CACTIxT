@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CACTIxT_CodeBL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CACTIxT_CodeBL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-infile ./xmls/cache_config_cmos.xml" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CACTIxT_CodeBL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Ucache.cc" />
+		<Unit filename="Ucache.h" />
+		<Unit filename="arbiter.cc" />
+		<Unit filename="arbiter.h" />
+		<Unit filename="area.cc" />
+		<Unit filename="area.h" />
+		<Unit filename="bank.cc" />
+		<Unit filename="bank.h" />
+		<Unit filename="basic_circuit.cc" />
+		<Unit filename="basic_circuit.h" />
+		<Unit filename="cacti_interface.cc" />
+		<Unit filename="cacti_interface.h" />
+		<Unit filename="component.cc" />
+		<Unit filename="component.h" />
+		<Unit filename="const.h" />
+		<Unit filename="crossbar.cc" />
+		<Unit filename="crossbar.h" />
+		<Unit filename="decoder.cc" />
+		<Unit filename="decoder.h" />
+		<Unit filename="htree2.cc" />
+		<Unit filename="htree2.h" />
+		<Unit filename="io.cc" />
+		<Unit filename="io.h" />
+		<Unit filename="main.cc" />
+		<Unit filename="mat.cc" />
+		<Unit filename="mat.h" />
+		<Unit filename="nuca.cc" />
+		<Unit filename="nuca.h" />
+		<Unit filename="parameter.cc" />
+		<Unit filename="parameter.h" />
+		<Unit filename="router.cc" />
+		<Unit filename="router.h" />
+		<Unit filename="subarray.cc" />
+		<Unit filename="subarray.h" />
+		<Unit filename="technology.cc" />
+		<Unit filename="uca.cc" />
+		<Unit filename="uca.h" />
+		<Unit filename="wire.cc" />
+		<Unit filename="wire.h" />
+		<Unit filename="xmlParser.cc" />
+		<Unit filename="xmlParser.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

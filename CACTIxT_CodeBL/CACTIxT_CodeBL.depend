@@ -1,0 +1,291 @@
+# depslib dependency file v1.0
+1404377222 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\arbiter.cc
+	"arbiter.h"
+
+1404377210 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\arbiter.h
+	<assert.h>
+	<iostream>
+	"basic_circuit.h"
+	"cacti_interface.h"
+	"component.h"
+	"parameter.h"
+	"mat.h"
+	"wire.h"
+
+1788253300 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\basic_circuit.h
+	"const.h"
+	"cacti_interface.h"
+
+1737461692 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\const.h
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<math.h>
+
+1788356476 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\cacti_interface.h
+	<map>
+	<string>
+	<vector>
+	<list>
+	"const.h"
+
+1404377292 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\component.h
+	"parameter.h"
+	"area.h"
+
+1788356520 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\parameter.h
+	"area.h"
+	"const.h"
+	"cacti_interface.h"
+	"io.h"
+
+1404377304 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\area.h
+	"cacti_interface.h"
+	"basic_circuit.h"
+
+1404377306 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\io.h
+	"const.h"
+	"cacti_interface.h"
+
+1788356414 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\mat.h
+	"component.h"
+	"decoder.h"
+	"wire.h"
+	"subarray.h"
+
+1788356476 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\decoder.h
+	"area.h"
+	"component.h"
+	"parameter.h"
+	<vector>
+
+1404377426 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\wire.h
+	"basic_circuit.h"
+	"component.h"
+	"parameter.h"
+	"assert.h"
+	"cacti_interface.h"
+	<iostream>
+	<list>
+
+1788356414 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\subarray.h
+	"area.h"
+	"component.h"
+	"parameter.h"
+
+1404377234 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\area.cc
+	"area.h"
+	"component.h"
+	"decoder.h"
+	"parameter.h"
+	"basic_circuit.h"
+	<iostream>
+	<math.h>
+	<assert.h>
+
+1404377414 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\bank.cc
+	"bank.h"
+	<iostream>
+
+1404377274 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\bank.h
+	"component.h"
+	"decoder.h"
+	"mat.h"
+	"htree2.h"
+
+1404377248 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\htree2.h
+	"basic_circuit.h"
+	"component.h"
+	"parameter.h"
+	"assert.h"
+	"subarray.h"
+	"cacti_interface.h"
+	"wire.h"
+
+1788254276 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\basic_circuit.cc
+	"basic_circuit.h"
+	"parameter.h"
+	<iostream>
+	<assert.h>
+	<cmath>
+
+1743087972 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\cacti_interface.cc
+	<time.h>
+	<math.h>
+	"area.h"
+	"basic_circuit.h"
+	"component.h"
+	"const.h"
+	"parameter.h"
+	"cacti_interface.h"
+	"Ucache.h"
+	<pthread.h>
+	<iostream>
+	<algorithm>
+
+1404377310 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\ucache.h
+	<list>
+	"area.h"
+	"router.h"
+	"nuca.h"
+
+1404377386 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\router.h
+	<assert.h>
+	<iostream>
+	"basic_circuit.h"
+	"cacti_interface.h"
+	"component.h"
+	"mat.h"
+	"parameter.h"
+	"wire.h"
+	"crossbar.h"
+	"arbiter.h"
+
+1404377280 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\crossbar.h
+	<assert.h>
+	<iostream>
+	"basic_circuit.h"
+	"cacti_interface.h"
+	"component.h"
+	"parameter.h"
+	"mat.h"
+	"wire.h"
+
+1404377206 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\nuca.h
+	"basic_circuit.h"
+	"component.h"
+	"parameter.h"
+	"assert.h"
+	"cacti_interface.h"
+	"wire.h"
+	"mat.h"
+	"io.h"
+	"router.h"
+	<iostream>
+
+1404377328 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\component.cc
+	<assert.h>
+	<iostream>
+	<math.h>
+	"bank.h"
+	"component.h"
+	"decoder.h"
+
+1404377262 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\crossbar.cc
+	"crossbar.h"
+
+1788356645 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\decoder.cc
+	"area.h"
+	"decoder.h"
+	"parameter.h"
+	<iostream>
+	<math.h>
+	<assert.h>
+
+1404377220 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\htree2.cc
+	"htree2.h"
+	"wire.h"
+	<assert.h>
+	<iostream>
+
+1788356520 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\io.cc
+	<fstream>
+	<iostream>
+	<sstream>
+	<stdlib.h>
+	<stdio.h>
+	"io.h"
+	"area.h"
+	"basic_circuit.h"
+	"parameter.h"
+	"Ucache.h"
+	"nuca.h"
+	"crossbar.h"
+	"arbiter.h"
+	"xmlParser.h"
+
+1735314538 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\xmlparser.h
+	<stdlib.h>
+	<tchar.h>
+	<wchar.h>
+
+1742829952 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\main.cc
+	"io.h"
+	<iostream>
+
+1788356520 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\mat.cc
+	"mat.h"
+	<assert.h>
+
+1404377322 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\nuca.cc
+	"nuca.h"
+	"Ucache.h"
+	<assert.h>
+
+1788356414 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\parameter.cc
+	<iostream>
+	<string>
+	<iomanip>
+	"parameter.h"
+	"area.h"
+
+1404377392 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\router.cc
+	"router.h"
+
+1788356414 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\subarray.cc
+	<iostream>
+	<math.h>
+	"subarray.h"
+
+1788356520 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\technology.cc
+	<iostream>
+	"basic_circuit.h"
+	"parameter.h"
+	"xmlParser.h"
+
+1743088022 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\uca.cc
+	<iostream>
+	<math.h>
+	"uca.h"
+
+1404377286 c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\uca.h
+	"area.h"
+	"bank.h"
+	"component.h"
+	"parameter.h"
+	"htree2.h"
+
+1788356476 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\ucache.cc
+	<time.h>
+	<math.h>
+	"area.h"
+	"bank.h"
+	"basic_circuit.h"
+	"component.h"
+	"const.h"
+	"decoder.h"
+	"parameter.h"
+	"Ucache.h"
+	"subarray.h"
+	"uca.h"
+	<pthread.h>
+	<iostream>
+	<algorithm>
+	<list>
+
+1744732022 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\wire.cc
+	"wire.h"
+
+1404377292 source:c:\home\ricerca\cacti\cactixt_github\cactixt_codebl\xmlparser.cc
+	"xmlParser.h"
+	<Windows.h>
+	<memory.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<widec.h>
+	<wctype.h>
+	<widec.h>
+
