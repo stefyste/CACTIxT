@@ -1,4 +1,4 @@
-# CACTIxT
+# CACTIxT RELEASE v1.0.0
 
 **CACTIxT** is a CACTI-compatible framework for architectural modeling and design-space exploration of SRAM macros based on 6T, 8T, and 10T bitcell topologies.
 
